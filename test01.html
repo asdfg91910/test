@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="jquery-2.1.4.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<body>
+<div data-role="page" id="home">
+	<div data-role="header" data-theme="b">
+		<h1>天氣預報<h1>
+	</div>
+		<div data-role="navbar">
+		<ul>
+			<li><a href="#about" data-icon="home">首頁</a></li>
+			<li><a href="#about1" data-icon="search">搜尋</a></li>
+			<li><a href="#" data-icon="info">關於</a></li>
+		</ul>
+		</div>
+	<div data-role="main" class="ui-content">
+		<p>手機內容</p>
+		<p><a href="#about">今天</a>|<a href="#about1">明天</a></p>
+	</div>
+	<div>
+	<div data-role="footer">
+		<h1>end</h1>
+	</div>
+</div>
+</div>
+<div data-role="page" id="about">
+		<div data-role="header" 
+		 data-add-back-btn="true" data-add-back-text="上一頁"><h1>second page</h1></div>
+		<div data-role="main" class="ui-content"><p>notthing</p></div>
+		<div data-role="footer" data-theme="b"><h1>page02</h1></div>
+	</div>
+	<div data-role="page" data-dialog="true" id="about1">
+		<div data-role="header"><h1>天氣</h1></div>
+		<div data-role="main" class="ui-content">OK</div>
+	</div>
+</div>
+</body>
+</html>
